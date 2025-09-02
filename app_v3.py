@@ -25,7 +25,7 @@ import json
 
 # DeepSeek configuration
 DEEPSEEK_CONFIG = {
-    "DEEPSEEK_API_KEY": "sk-59bc78c167244d94bc105dfd72e32d59",
+    "DEEPSEEK_API_KEY": "",
     "DEEPSEEK_API_URL": "https://api.deepseek.com/v1/chat/completions"
 }
 
@@ -127,11 +127,11 @@ DEEPSEEK_RERANKER_AVAILABLE = True
 
 # Configuration - Replace with your actual Azure OpenAI configuration
 AZURE_CONFIG = {
-    "AZURE_OPENAI_ENDPOINT": "https://oai-nasco.openai.azure.com",
-    "AZURE_OPENAI_API_KEY": "BVdtDRjC29UejATKda7J4BlembqAJ21L7PzODWc8aNzEsRCgrXRCJQQJ99AKACYeBjFXJ3w3AAABACOGL10p",
-    "OPENAI_API_VERSION": "2025-01-01-preview",
-    "AZURE_OPENAI_CHAT_DEPLOYMENT_NAME": "gpt-4o",
-    "AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT_NAME": "text-embedding-ada-002"
+    "AZURE_OPENAI_ENDPOINT": "",
+    "AZURE_OPENAI_API_KEY": "",
+    "OPENAI_API_VERSION": "",
+    "AZURE_OPENAI_CHAT_DEPLOYMENT_NAME": "",
+    "AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT_NAME": ""
 }
 
 # Directory for storing vector databases and RAGAS cache
